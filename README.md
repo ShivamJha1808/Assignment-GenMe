@@ -23,9 +23,9 @@ API to get max possible number of draws from given scores for Go Game
   * The scores should correspond to at least one valid configration of games
 
 #### Response
-* The API returns a JASON object with max_draws
+* The API returns a JSON object with max_draws
 * If the any of the above constraints is not met by the input then -1 is returned as max_draws
-* Otherwise the max possible draws that could have occured, for all valid configration of games, is retruned
+* Otherwise the max possible draws that could have occured, for all valid configration of games, is returned
 
 #### Example cases
 * for /maxDraws/2/3/6
